@@ -31,7 +31,9 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  // URL中不存在#
+  //mode: 'history'
 })
 
 export default router
