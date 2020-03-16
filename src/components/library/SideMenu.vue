@@ -35,7 +35,15 @@
 export default {
   name: "SideMenu",
   data() {
-    return {};
+    return {
+      cid: ""
+    };
+  },
+  methods: {
+    handleSelect(key, keyPath) {
+      this.cid = key;
+      this.$emit("indexSelect");
+    }
   }
 };
 </script>

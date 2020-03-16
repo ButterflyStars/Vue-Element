@@ -8,7 +8,7 @@
 <script>
 import NavMenu from "./common/NavMenu";
 export default {
-  name: "Home ",
+  name: "Home",
   data() {
     return {};
   },
